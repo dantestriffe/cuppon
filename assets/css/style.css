@@ -1,0 +1,91 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Roboto"
+}
+
+span{
+color: #28A745;
+font-size: 1.5em;
+font-weight: 500;
+}
+
+#espacio{
+  word-spacing: 9px;
+  width: 100%;
+  text-align: right;
+}
+
+#alinear{
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+p{
+  margin-bottom: -5px;
+}
+.ajustimg{
+  height: 232px;
+}
+
+hr{
+  margin-top: 0;
+}
+
+.titulocard{
+  font-weight: 400;
+}
+
+.tamtar{
+  padding: 0px;
+}
+
+#logotop{
+  width: 190px;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  #logotop {
+    width: 160px;
+    margin-left: 80px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #logotop {
+    width: 140px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #logotop {
+    width: 120px;
+    margin-left: 0px;
+  }
+}
+
+.tam{
+  height: 50px;
+  color: #707070;
+  font-weight: 400;
+}
+
+.btn{
+  width: 140px;
+  font-weight: 400;
+}
+
+.futer{
+  height: 120px;
+  text-align: center;
+}
+
+.centform{
+  text-align: center;
+  color: white;
+}
